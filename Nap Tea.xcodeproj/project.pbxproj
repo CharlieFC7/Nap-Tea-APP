@@ -14,7 +14,6 @@
 		CB07F1862C636CA8004223D4 /* MeunPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB07F1852C636CA8004223D4 /* MeunPreviewView.swift */; };
 		CB1183FA2C61FD5600D28CDB /* TopTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1183F92C61FD5600D28CDB /* TopTabView.swift */; };
 		CB3CC44C2C58C4BD00B6C6AC /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3CC44B2C58C4BD00B6C6AC /* SignUpView.swift */; };
-		CB583ACA2C145D19006B180D /* MeunViewModel0.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB583AC92C145D19006B180D /* MeunViewModel0.swift */; };
 		CB5883232C087CD800F4206A /* Nap_TeaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5883222C087CD800F4206A /* Nap_TeaApp.swift */; };
 		CB5883252C087CD800F4206A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5883242C087CD800F4206A /* ContentView.swift */; };
 		CB5883272C087CDD00F4206A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5883262C087CDD00F4206A /* Assets.xcassets */; };
@@ -24,7 +23,6 @@
 		CB8783ED2C6B626700BF74C0 /* Nap_TeaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8783EC2C6B626700BF74C0 /* Nap_TeaTests.swift */; };
 		CB8BDC1F2C6CC044001FB6C2 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BDC1E2C6CC044001FB6C2 /* OrderView.swift */; };
 		CBA537B02C5CB9CF00149606 /* MeunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA537AF2C5CB9CF00149606 /* MeunView.swift */; };
-		CBAA5EF82C1E0CBB0016AE51 /* MeunModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA5EF72C1E0CBB0016AE51 /* MeunModel.swift */; };
 		CBAA5EFF2C1E2F670016AE51 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA5EFE2C1E2F670016AE51 /* HomeScreenView.swift */; };
 		CBC6583C2C20BA2B00C71687 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC6583B2C20BA2B00C71687 /* MapView.swift */; };
 		CBC6583F2C20BE7D00C71687 /* OldMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC6583E2C20BE7D00C71687 /* OldMapModel.swift */; };
@@ -64,7 +62,6 @@
 		CB07F1852C636CA8004223D4 /* MeunPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeunPreviewView.swift; sourceTree = "<group>"; };
 		CB1183F92C61FD5600D28CDB /* TopTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabView.swift; sourceTree = "<group>"; };
 		CB3CC44B2C58C4BD00B6C6AC /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
-		CB583AC92C145D19006B180D /* MeunViewModel0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeunViewModel0.swift; path = "Nap Tea/Order/ToFix/MeunViewModel0.swift"; sourceTree = SOURCE_ROOT; };
 		CB58831F2C087CD800F4206A /* Nap Tea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nap Tea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5883222C087CD800F4206A /* Nap_TeaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nap_TeaApp.swift; sourceTree = "<group>"; };
 		CB5883242C087CD800F4206A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,7 +73,6 @@
 		CB8783EC2C6B626700BF74C0 /* Nap_TeaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nap_TeaTests.swift; sourceTree = "<group>"; };
 		CB8BDC1E2C6CC044001FB6C2 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		CBA537AF2C5CB9CF00149606 /* MeunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeunView.swift; sourceTree = "<group>"; };
-		CBAA5EF72C1E0CBB0016AE51 /* MeunModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeunModel.swift; sourceTree = "<group>"; };
 		CBAA5EFE2C1E2F670016AE51 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		CBC6583B2C20BA2B00C71687 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		CBC6583E2C20BE7D00C71687 /* OldMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldMapModel.swift; sourceTree = "<group>"; };
@@ -194,7 +190,7 @@
 				CBF30E442C73E23E00889078 /* RadioButtonView.swift */,
 				CBE3BFAA2C6C5D0800C8CC01 /* MeunViewModel.swift */,
 				CBE5C72F2C6E783E00561612 /* MeunOrderModel.swift */,
-				CBE3BFAC2C6C644900C8CC01 /* ToFix */,
+				CBE3BFAC2C6C644900C8CC01 /* Oldidea */,
 			);
 			path = Order;
 			sourceTree = "<group>";
@@ -221,14 +217,12 @@
 			path = Map;
 			sourceTree = "<group>";
 		};
-		CBE3BFAC2C6C644900C8CC01 /* ToFix */ = {
+		CBE3BFAC2C6C644900C8CC01 /* Oldidea */ = {
 			isa = PBXGroup;
 			children = (
 				CB1183F92C61FD5600D28CDB /* TopTabView.swift */,
-				CBAA5EF72C1E0CBB0016AE51 /* MeunModel.swift */,
-				CB583AC92C145D19006B180D /* MeunViewModel0.swift */,
 			);
-			path = ToFix;
+			path = Oldidea;
 			sourceTree = "<group>";
 		};
 		CBF3ABBD2C75008E00D54DBF /* Cart */ = {
@@ -440,7 +434,6 @@
 				CBC6583C2C20BA2B00C71687 /* MapView.swift in Sources */,
 				CBE5C7342C6E8ABF00561612 /* CartView.swift in Sources */,
 				CB07F1862C636CA8004223D4 /* MeunPreviewView.swift in Sources */,
-				CBAA5EF82C1E0CBB0016AE51 /* MeunModel.swift in Sources */,
 				CB1183FA2C61FD5600D28CDB /* TopTabView.swift in Sources */,
 				CBAA5EFF2C1E2F670016AE51 /* HomeScreenView.swift in Sources */,
 				CBE3BFAB2C6C5D0800C8CC01 /* MeunViewModel.swift in Sources */,
@@ -456,7 +449,6 @@
 				CBF30E452C73E23E00889078 /* RadioButtonView.swift in Sources */,
 				CBE5C7322C6E799D00561612 /* CartPreviewView.swift in Sources */,
 				CB3CC44C2C58C4BD00B6C6AC /* SignUpView.swift in Sources */,
-				CB583ACA2C145D19006B180D /* MeunViewModel0.swift in Sources */,
 				CBF9F09C2C4EDCB8009B6BA6 /* InstagramData.swift in Sources */,
 				CBFBCCD42C3E74B500EF251B /* MapViewModel.swift in Sources */,
 				CB8BDC1F2C6CC044001FB6C2 /* OrderView.swift in Sources */,
