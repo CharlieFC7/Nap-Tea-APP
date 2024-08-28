@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB01DC5F2C5AC785008CC45F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB01DC5E2C5AC784008CC45F /* GoogleService-Info.plist */; };
+		CB01DC622C5ACAA2008CC45F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CB01DC612C5ACAA2008CC45F /* FirebaseAuth */; };
+		CB01DC642C5ACAA2008CC45F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CB01DC632C5ACAA2008CC45F /* FirebaseFirestoreSwift */; };
+		CB01DC662C5ACAA2008CC45F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CB01DC652C5ACAA2008CC45F /* FirebaseStorage */; };
+		CB07F1862C636CA8004223D4 /* MeunPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB07F1852C636CA8004223D4 /* MeunPreviewView.swift */; };
+		CB1183FA2C61FD5600D28CDB /* TopTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1183F92C61FD5600D28CDB /* TopTabView.swift */; };
+		CB3CC44C2C58C4BD00B6C6AC /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3CC44B2C58C4BD00B6C6AC /* SignUpView.swift */; };
+		CB583ACA2C145D19006B180D /* MeunViewModel0.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB583AC92C145D19006B180D /* MeunViewModel0.swift */; };
+		CB5883232C087CD800F4206A /* Nap_TeaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5883222C087CD800F4206A /* Nap_TeaApp.swift */; };
+		CB5883252C087CD800F4206A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5883242C087CD800F4206A /* ContentView.swift */; };
+		CB5883272C087CDD00F4206A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5883262C087CDD00F4206A /* Assets.xcassets */; };
+		CB58832A2C087CDD00F4206A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5883292C087CDD00F4206A /* Preview Assets.xcassets */; };
+		CB8461B12C3D3DF70064283B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8461B02C3D3DF60064283B /* LoginView.swift */; };
+		CB8463392C491A79009C47C8 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8463382C491A79009C47C8 /* PostGridView.swift */; };
+		CB8783ED2C6B626700BF74C0 /* Nap_TeaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8783EC2C6B626700BF74C0 /* Nap_TeaTests.swift */; };
+		CB8BDC1F2C6CC044001FB6C2 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BDC1E2C6CC044001FB6C2 /* OrderView.swift */; };
+		CBA537B02C5CB9CF00149606 /* MeunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA537AF2C5CB9CF00149606 /* MeunView.swift */; };
+		CBAA5EF82C1E0CBB0016AE51 /* MeunModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA5EF72C1E0CBB0016AE51 /* MeunModel.swift */; };
+		CBAA5EFF2C1E2F670016AE51 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA5EFE2C1E2F670016AE51 /* HomeScreenView.swift */; };
+		CBC6583C2C20BA2B00C71687 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC6583B2C20BA2B00C71687 /* MapView.swift */; };
+		CBC6583F2C20BE7D00C71687 /* OldMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC6583E2C20BE7D00C71687 /* OldMapModel.swift */; };
+		CBC658412C20C7CA00C71687 /* OldMapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC658402C20C7CA00C71687 /* OldMapData.swift */; };
+		CBC658432C20CCE300C71687 /* MapPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC658422C20CCE300C71687 /* MapPreviewView.swift */; };
+		CBC6584C2C21D23200C71687 /* IgPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC6584B2C21D23200C71687 /* IgPostView.swift */; };
+		CBDC65842C4F7C4900F1359A /* InstagramViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDC65832C4F7C4900F1359A /* InstagramViewModel.swift */; };
+		CBE3BFAB2C6C5D0800C8CC01 /* MeunViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3BFAA2C6C5D0800C8CC01 /* MeunViewModel.swift */; };
+		CBE5C7302C6E783E00561612 /* MeunOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE5C72F2C6E783E00561612 /* MeunOrderModel.swift */; };
+		CBE5C7322C6E799D00561612 /* CartPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE5C7312C6E799D00561612 /* CartPreviewView.swift */; };
+		CBE5C7342C6E8ABF00561612 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE5C7332C6E8ABF00561612 /* CartView.swift */; };
+		CBEAE96F2C636449003D3041 /* MeunOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEAE96E2C636449003D3041 /* MeunOptionsView.swift */; };
+		CBF30E452C73E23E00889078 /* RadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF30E442C73E23E00889078 /* RadioButtonView.swift */; };
+		CBF6D19E2C41120F00B5B448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF6D19D2C41120F00B5B448 /* LaunchScreen.storyboard */; };
+		CBF72F942C4A5C4E0061DD76 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF72F932C4A5C4E0061DD76 /* MainTabView.swift */; };
+		CBF9F09C2C4EDCB8009B6BA6 /* InstagramData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF9F09B2C4EDCB8009B6BA6 /* InstagramData.swift */; };
+		CBF9F09E2C4EDDAD009B6BA6 /* InstagramInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF9F09D2C4EDDAD009B6BA6 /* InstagramInformation.swift */; };
+		CBFBCCCD2C3E6C6E00EF251B /* MapLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBCCCC2C3E6C6E00EF251B /* MapLocation.swift */; };
+		CBFBCCD02C3E6D4300EF251B /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBCCCF2C3E6D4300EF251B /* LocationData.swift */; };
+		CBFBCCD42C3E74B500EF251B /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBCCD32C3E74B500EF251B /* MapViewModel.swift */; };
+		CBFBCCD62C3E888700EF251B /* MapListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBCCD52C3E888700EF251B /* MapListView.swift */; };
+		CBFBCCD82C3FCE9600EF251B /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBCCD72C3FCE9600EF251B /* MapAnnotationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB8783EE2C6B626700BF74C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5883172C087CD800F4206A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB58831E2C087CD800F4206A;
+			remoteInfo = "Nap Tea";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB01DC5E2C5AC784008CC45F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB07F1852C636CA8004223D4 /* MeunPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeunPreviewView.swift; sourceTree = "<group>"; };
+		CB1183F92C61FD5600D28CDB /* TopTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabView.swift; sourceTree = "<group>"; };
+		CB3CC44B2C58C4BD00B6C6AC /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CB583AC92C145D19006B180D /* MeunViewModel0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeunViewModel0.swift; path = "Nap Tea/Order/ToFix/MeunViewModel0.swift"; sourceTree = SOURCE_ROOT; };
+		CB58831F2C087CD800F4206A /* Nap Tea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nap Tea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5883222C087CD800F4206A /* Nap_TeaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nap_TeaApp.swift; sourceTree = "<group>"; };
+		CB5883242C087CD800F4206A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB5883262C087CDD00F4206A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB5883292C087CDD00F4206A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB8461B02C3D3DF60064283B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CB8463382C491A79009C47C8 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		CB8783EA2C6B626600BF74C0 /* Nap TeaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nap TeaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8783EC2C6B626700BF74C0 /* Nap_TeaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nap_TeaTests.swift; sourceTree = "<group>"; };
+		CB8BDC1E2C6CC044001FB6C2 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		CBA537AF2C5CB9CF00149606 /* MeunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeunView.swift; sourceTree = "<group>"; };
+		CBAA5EF72C1E0CBB0016AE51 /* MeunModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeunModel.swift; sourceTree = "<group>"; };
+		CBAA5EFE2C1E2F670016AE51 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		CBC6583B2C20BA2B00C71687 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CBC6583E2C20BE7D00C71687 /* OldMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldMapModel.swift; sourceTree = "<group>"; };
+		CBC658402C20C7CA00C71687 /* OldMapData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldMapData.swift; sourceTree = "<group>"; };
+		CBC658422C20CCE300C71687 /* MapPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPreviewView.swift; sourceTree = "<group>"; };
+		CBC658442C20DE5700C71687 /* Nap-Tea-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Nap-Tea-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CBC6584B2C21D23200C71687 /* IgPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgPostView.swift; sourceTree = "<group>"; };
+		CBDC65832C4F7C4900F1359A /* InstagramViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramViewModel.swift; sourceTree = "<group>"; };
+		CBE3BFAA2C6C5D0800C8CC01 /* MeunViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeunViewModel.swift; sourceTree = "<group>"; };
+		CBE5C72F2C6E783E00561612 /* MeunOrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeunOrderModel.swift; sourceTree = "<group>"; };
+		CBE5C7312C6E799D00561612 /* CartPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPreviewView.swift; sourceTree = "<group>"; };
+		CBE5C7332C6E8ABF00561612 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		CBEAE96E2C636449003D3041 /* MeunOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeunOptionsView.swift; sourceTree = "<group>"; };
+		CBF30E442C73E23E00889078 /* RadioButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonView.swift; sourceTree = "<group>"; };
+		CBF6D19D2C41120F00B5B448 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBF72F932C4A5C4E0061DD76 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		CBF9F09B2C4EDCB8009B6BA6 /* InstagramData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramData.swift; sourceTree = "<group>"; };
+		CBF9F09D2C4EDDAD009B6BA6 /* InstagramInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramInformation.swift; sourceTree = "<group>"; };
+		CBFBCCCC2C3E6C6E00EF251B /* MapLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocation.swift; sourceTree = "<group>"; };
+		CBFBCCCF2C3E6D4300EF251B /* LocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
+		CBFBCCD32C3E74B500EF251B /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		CBFBCCD52C3E888700EF251B /* MapListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListView.swift; sourceTree = "<group>"; };
+		CBFBCCD72C3FCE9600EF251B /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB58831C2C087CD800F4206A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB01DC622C5ACAA2008CC45F /* FirebaseAuth in Frameworks */,
+				CB01DC642C5ACAA2008CC45F /* FirebaseFirestoreSwift in Frameworks */,
+				CB01DC662C5ACAA2008CC45F /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8783E72C6B626600BF74C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB5883162C087CD800F4206A = {
+			isa = PBXGroup;
+			children = (
+				CB5883212C087CD800F4206A /* Nap Tea */,
+				CB8783EB2C6B626700BF74C0 /* Nap TeaTests */,
+				CB5883202C087CD800F4206A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB5883202C087CD800F4206A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB58831F2C087CD800F4206A /* Nap Tea.app */,
+				CB8783EA2C6B626600BF74C0 /* Nap TeaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5883212C087CD800F4206A /* Nap Tea */ = {
+			isa = PBXGroup;
+			children = (
+				CBC658442C20DE5700C71687 /* Nap-Tea-Info.plist */,
+				CBC6583A2C20BA1300C71687 /* Map */,
+				CBAA5EFB2C1E10FE0016AE51 /* Order */,
+				CBAA5EFD2C1E11170016AE51 /* Home&IG */,
+				CBA537AE2C5CB36200149606 /* Login */,
+				CBF72F932C4A5C4E0061DD76 /* MainTabView.swift */,
+				CB5883242C087CD800F4206A /* ContentView.swift */,
+				CB5883222C087CD800F4206A /* Nap_TeaApp.swift */,
+				CBF6D19D2C41120F00B5B448 /* LaunchScreen.storyboard */,
+				CB5883262C087CDD00F4206A /* Assets.xcassets */,
+				CB5883282C087CDD00F4206A /* Preview Content */,
+			);
+			path = "Nap Tea";
+			sourceTree = "<group>";
+		};
+		CB5883282C087CDD00F4206A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB5883292C087CDD00F4206A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB8783EB2C6B626700BF74C0 /* Nap TeaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB8783EC2C6B626700BF74C0 /* Nap_TeaTests.swift */,
+			);
+			path = "Nap TeaTests";
+			sourceTree = "<group>";
+		};
+		CBA537AE2C5CB36200149606 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CB3CC44B2C58C4BD00B6C6AC /* SignUpView.swift */,
+				CB8461B02C3D3DF60064283B /* LoginView.swift */,
+				CB01DC5E2C5AC784008CC45F /* GoogleService-Info.plist */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CBAA5EFB2C1E10FE0016AE51 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				CBF3ABBE2C75009B00D54DBF /* Meun */,
+				CBF3ABBD2C75008E00D54DBF /* Cart */,
+				CB8BDC1E2C6CC044001FB6C2 /* OrderView.swift */,
+				CBF30E442C73E23E00889078 /* RadioButtonView.swift */,
+				CBE3BFAA2C6C5D0800C8CC01 /* MeunViewModel.swift */,
+				CBE5C72F2C6E783E00561612 /* MeunOrderModel.swift */,
+				CBE3BFAC2C6C644900C8CC01 /* ToFix */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		CBAA5EFD2C1E11170016AE51 /* Home&IG */ = {
+			isa = PBXGroup;
+			children = (
+				CBF9F09A2C4EDC49009B6BA6 /* Data */,
+				CBF9F0992C4EDC43009B6BA6 /* Model */,
+				CBF9F0982C4EDC3A009B6BA6 /* ViewModel */,
+				CBF9F0972C4EDB43009B6BA6 /* View */,
+			);
+			path = "Home&IG";
+			sourceTree = "<group>";
+		};
+		CBC6583A2C20BA1300C71687 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				CBFBCCCE2C3E6D1C00EF251B /* Data */,
+				CBFBCCCB2C3E6C5100EF251B /* Model */,
+				CBFBCCD22C3E708300EF251B /* ViewModel */,
+				CBFBCCD12C3E707400EF251B /* View */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		CBE3BFAC2C6C644900C8CC01 /* ToFix */ = {
+			isa = PBXGroup;
+			children = (
+				CB1183F92C61FD5600D28CDB /* TopTabView.swift */,
+				CBAA5EF72C1E0CBB0016AE51 /* MeunModel.swift */,
+				CB583AC92C145D19006B180D /* MeunViewModel0.swift */,
+			);
+			path = ToFix;
+			sourceTree = "<group>";
+		};
+		CBF3ABBD2C75008E00D54DBF /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				CBE5C7332C6E8ABF00561612 /* CartView.swift */,
+				CBE5C7312C6E799D00561612 /* CartPreviewView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		CBF3ABBE2C75009B00D54DBF /* Meun */ = {
+			isa = PBXGroup;
+			children = (
+				CBA537AF2C5CB9CF00149606 /* MeunView.swift */,
+				CBEAE96E2C636449003D3041 /* MeunOptionsView.swift */,
+				CB07F1852C636CA8004223D4 /* MeunPreviewView.swift */,
+			);
+			path = Meun;
+			sourceTree = "<group>";
+		};
+		CBF9F0972C4EDB43009B6BA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBAA5EFE2C1E2F670016AE51 /* HomeScreenView.swift */,
+				CB8463382C491A79009C47C8 /* PostGridView.swift */,
+				CBC6584B2C21D23200C71687 /* IgPostView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBF9F0982C4EDC3A009B6BA6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC65832C4F7C4900F1359A /* InstagramViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CBF9F0992C4EDC43009B6BA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBF9F09D2C4EDDAD009B6BA6 /* InstagramInformation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBF9F09A2C4EDC49009B6BA6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CBF9F09B2C4EDCB8009B6BA6 /* InstagramData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CBFBCCCB2C3E6C5100EF251B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBC6583E2C20BE7D00C71687 /* OldMapModel.swift */,
+				CBFBCCCC2C3E6C6E00EF251B /* MapLocation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBFBCCCE2C3E6D1C00EF251B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CBC658402C20C7CA00C71687 /* OldMapData.swift */,
+				CBFBCCCF2C3E6D4300EF251B /* LocationData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CBFBCCD12C3E707400EF251B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBC6583B2C20BA2B00C71687 /* MapView.swift */,
+				CBFBCCD52C3E888700EF251B /* MapListView.swift */,
+				CBC658422C20CCE300C71687 /* MapPreviewView.swift */,
+				CBFBCCD72C3FCE9600EF251B /* MapAnnotationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBFBCCD22C3E708300EF251B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CBFBCCD32C3E74B500EF251B /* MapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB58831E2C087CD800F4206A /* Nap Tea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB58832D2C087CDD00F4206A /* Build configuration list for PBXNativeTarget "Nap Tea" */;
+			buildPhases = (
+				CB58831B2C087CD800F4206A /* Sources */,
+				CB58831C2C087CD800F4206A /* Frameworks */,
+				CB58831D2C087CD800F4206A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nap Tea";
+			packageProductDependencies = (
+				CB01DC612C5ACAA2008CC45F /* FirebaseAuth */,
+				CB01DC632C5ACAA2008CC45F /* FirebaseFirestoreSwift */,
+				CB01DC652C5ACAA2008CC45F /* FirebaseStorage */,
+			);
+			productName = "Nap Tea";
+			productReference = CB58831F2C087CD800F4206A /* Nap Tea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB8783E92C6B626600BF74C0 /* Nap TeaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8783F22C6B626700BF74C0 /* Build configuration list for PBXNativeTarget "Nap TeaTests" */;
+			buildPhases = (
+				CB8783E62C6B626600BF74C0 /* Sources */,
+				CB8783E72C6B626600BF74C0 /* Frameworks */,
+				CB8783E82C6B626600BF74C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB8783EF2C6B626700BF74C0 /* PBXTargetDependency */,
+			);
+			name = "Nap TeaTests";
+			productName = "Nap TeaTests";
+			productReference = CB8783EA2C6B626600BF74C0 /* Nap TeaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB5883172C087CD800F4206A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CB58831E2C087CD800F4206A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CB8783E92C6B626600BF74C0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CB58831E2C087CD800F4206A;
+					};
+				};
+			};
+			buildConfigurationList = CB58831A2C087CD800F4206A /* Build configuration list for PBXProject "Nap Tea" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB5883162C087CD800F4206A;
+			packageReferences = (
+				CB01DC602C5ACAA2008CC45F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = CB5883202C087CD800F4206A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB58831E2C087CD800F4206A /* Nap Tea */,
+				CB8783E92C6B626600BF74C0 /* Nap TeaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB58831D2C087CD800F4206A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF6D19E2C41120F00B5B448 /* LaunchScreen.storyboard in Resources */,
+				CB01DC5F2C5AC785008CC45F /* GoogleService-Info.plist in Resources */,
+				CB58832A2C087CDD00F4206A /* Preview Assets.xcassets in Resources */,
+				CB5883272C087CDD00F4206A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8783E82C6B626600BF74C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB58831B2C087CD800F4206A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF9F09E2C4EDDAD009B6BA6 /* InstagramInformation.swift in Sources */,
+				CBC6583F2C20BE7D00C71687 /* OldMapModel.swift in Sources */,
+				CBFBCCCD2C3E6C6E00EF251B /* MapLocation.swift in Sources */,
+				CBC6584C2C21D23200C71687 /* IgPostView.swift in Sources */,
+				CBC658412C20C7CA00C71687 /* OldMapData.swift in Sources */,
+				CBFBCCD02C3E6D4300EF251B /* LocationData.swift in Sources */,
+				CBC6583C2C20BA2B00C71687 /* MapView.swift in Sources */,
+				CBE5C7342C6E8ABF00561612 /* CartView.swift in Sources */,
+				CB07F1862C636CA8004223D4 /* MeunPreviewView.swift in Sources */,
+				CBAA5EF82C1E0CBB0016AE51 /* MeunModel.swift in Sources */,
+				CB1183FA2C61FD5600D28CDB /* TopTabView.swift in Sources */,
+				CBAA5EFF2C1E2F670016AE51 /* HomeScreenView.swift in Sources */,
+				CBE3BFAB2C6C5D0800C8CC01 /* MeunViewModel.swift in Sources */,
+				CB8463392C491A79009C47C8 /* PostGridView.swift in Sources */,
+				CB5883252C087CD800F4206A /* ContentView.swift in Sources */,
+				CBA537B02C5CB9CF00149606 /* MeunView.swift in Sources */,
+				CBC658432C20CCE300C71687 /* MapPreviewView.swift in Sources */,
+				CBEAE96F2C636449003D3041 /* MeunOptionsView.swift in Sources */,
+				CBF72F942C4A5C4E0061DD76 /* MainTabView.swift in Sources */,
+				CBDC65842C4F7C4900F1359A /* InstagramViewModel.swift in Sources */,
+				CB8461B12C3D3DF70064283B /* LoginView.swift in Sources */,
+				CBFBCCD62C3E888700EF251B /* MapListView.swift in Sources */,
+				CBF30E452C73E23E00889078 /* RadioButtonView.swift in Sources */,
+				CBE5C7322C6E799D00561612 /* CartPreviewView.swift in Sources */,
+				CB3CC44C2C58C4BD00B6C6AC /* SignUpView.swift in Sources */,
+				CB583ACA2C145D19006B180D /* MeunViewModel0.swift in Sources */,
+				CBF9F09C2C4EDCB8009B6BA6 /* InstagramData.swift in Sources */,
+				CBFBCCD42C3E74B500EF251B /* MapViewModel.swift in Sources */,
+				CB8BDC1F2C6CC044001FB6C2 /* OrderView.swift in Sources */,
+				CB5883232C087CD800F4206A /* Nap_TeaApp.swift in Sources */,
+				CBE5C7302C6E783E00561612 /* MeunOrderModel.swift in Sources */,
+				CBFBCCD82C3FCE9600EF251B /* MapAnnotationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8783E62C6B626600BF74C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8783ED2C6B626700BF74C0 /* Nap_TeaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB8783EF2C6B626700BF74C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB58831E2C087CD800F4206A /* Nap Tea */;
+			targetProxy = CB8783EE2C6B626700BF74C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB58832B2C087CDD00F4206A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB58832C2C087CDD00F4206A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB58832E2C087CDD00F4206A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nap Tea/Preview Content\"";
+				DEVELOPMENT_TEAM = JWZKVVXDTC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nap-Tea-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CharlieChang.Nap-Tea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB58832F2C087CDD00F4206A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nap Tea/Preview Content\"";
+				DEVELOPMENT_TEAM = JWZKVVXDTC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nap-Tea-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CharlieChang.Nap-Tea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB8783F02C6B626700BF74C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CharlieChang.Nap-TeaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nap Tea.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nap Tea";
+			};
+			name = Debug;
+		};
+		CB8783F12C6B626700BF74C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CharlieChang.Nap-TeaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nap Tea.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nap Tea";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB58831A2C087CD800F4206A /* Build configuration list for PBXProject "Nap Tea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB58832B2C087CDD00F4206A /* Debug */,
+				CB58832C2C087CDD00F4206A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB58832D2C087CDD00F4206A /* Build configuration list for PBXNativeTarget "Nap Tea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB58832E2C087CDD00F4206A /* Debug */,
+				CB58832F2C087CDD00F4206A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB8783F22C6B626700BF74C0 /* Build configuration list for PBXNativeTarget "Nap TeaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8783F02C6B626700BF74C0 /* Debug */,
+				CB8783F12C6B626700BF74C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB01DC602C5ACAA2008CC45F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB01DC612C5ACAA2008CC45F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB01DC602C5ACAA2008CC45F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CB01DC632C5ACAA2008CC45F /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB01DC602C5ACAA2008CC45F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		CB01DC652C5ACAA2008CC45F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB01DC602C5ACAA2008CC45F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CB5883172C087CD800F4206A /* Project object */;
+}
